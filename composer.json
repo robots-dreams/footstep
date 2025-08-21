@@ -1,0 +1,15 @@
+{
+    "name": "robots-dreams/footstep",
+    "description": "PHP classes to render bootstrap elements",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "twbs/bootstrap": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Footstep\\": "src/"
+        }
+    }
+}
