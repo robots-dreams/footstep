@@ -1,2 +1,23 @@
 # footstep
-PHP classes to render bootstrap elements
+## PHP classes to render bootstrap elements
+
+The package is still a work in progress and will be extended in the future.
+
+At the moment only Bootstrap buttons are supported.
+
+### Example Usage:
+```
+<?php echo new Button(TypeEnum::SUCCESS, 'Speichern') ?>
+```
+```
+<?php echo new Button(TypeEnum::WARNING, 'Speichern', outline: OutlineType::OUTLINE) ?>
+```
+```
+<?php echo new Button(TypeEnum::DARK, 'Speichern', ButtonSizeEnum::SM, OutlineType::OUTLINE) ?>
+```
+```
+<?php echo new Button(TypeEnum::DANGER, 'Speichern', ButtonSizeEnum::LG, OutlineType::OUTLINE) ?>
+```
+```
+<?php echo new Button(TypeEnum::INFO, 'Speichern', disabled: true) ?>
+```
