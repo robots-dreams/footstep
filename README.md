@@ -1,5 +1,7 @@
-# footstep
+# robots-dreams/footstep
 ## PHP classes to render bootstrap elements
+
+<img src="logo.png" class="rounded mx-auto d-block img-thumbnail" alt="logo" style="width: 300px; height: 300px;">
 
 The package is still a work in progress and will be extended in the future.
 
