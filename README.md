@@ -20,12 +20,12 @@ renders to:
 <?php echo new Button(TypeEnum::DARK, 'Speichern', ButtonSizeEnum::SM, OutlineType::OUTLINE) ?>
 ```
 renders to:
-![image info](./assets/4.png)
+![image info](./assets/3.png)
 ```
 <?php echo new Button(TypeEnum::DANGER, 'Speichern', ButtonSizeEnum::LG, OutlineType::OUTLINE) ?>
 ```
 renders to:
-![image info](./assets/3.png)
+![image info](./assets/4.png)
 ```
 <?php echo new Button(TypeEnum::INFO, 'Speichern', disabled: true) ?>
 ```
