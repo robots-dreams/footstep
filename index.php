@@ -112,6 +112,21 @@ require __DIR__ . '/vendor/autoload.php';
     <?php echo new Button(TypeEnum::LINK, 'Speichern', disabled: true) ?>
 </div>
 
+<hr>
+
+<div class="container">
+    <?php echo new Button(TypeEnum::DARK, 'Speichern', href: 'https://www.google.de') ?>
+    <?php echo new Button(TypeEnum::PRIMARY, 'Speichern', href: 'https://www.google.de') ?>
+    <?php echo new Button(TypeEnum::SECONDARY, 'Speichern', href: 'https://www.google.de') ?>
+    <?php echo new Button(TypeEnum::SUCCESS, 'Speichern', href: 'https://www.google.de') ?>
+    <?php echo new Button(TypeEnum::DANGER, 'Speichern', href: 'https://www.google.de') ?>
+    <?php echo new Button(TypeEnum::WARNING, 'Speichern', href: 'https://www.google.de') ?>
+    <?php echo new Button(TypeEnum::INFO, 'Speichern', href: 'https://www.google.de') ?>
+    <?php echo new Button(TypeEnum::LIGHT, 'Speichern', href: 'https://www.google.de') ?>
+    <?php echo new Button(TypeEnum::DARK, 'Speichern', href: 'https://www.google.de') ?>
+    <?php echo new Button(TypeEnum::LINK, 'Speichern', href: 'https://www.google.de') ?>
+</div>
+
 <!-- Bootstrap JS Bundle (mit Popper) -->
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

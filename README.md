@@ -45,3 +45,11 @@ renders to:
 ```
 renders to:
 ![image info](./assets/5.png)
+
+---
+
+```
+<?php echo new Button(TypeEnum::INFO, 'Speichern', href: 'https://www.google.de') ?>
+```
+renders to:
+![image info](./assets/6.png)
